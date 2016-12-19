@@ -18,7 +18,7 @@
 // User joe = new User("Joe", 30)
 
 case class User(name:String, var age:Int)
-val joe = User("Joe", 30)
+val joe = User("Abhishek", 30)
 
 println(joe.age)
 println(joe.name)
