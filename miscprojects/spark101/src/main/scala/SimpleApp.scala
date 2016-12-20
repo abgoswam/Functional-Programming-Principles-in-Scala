@@ -19,7 +19,7 @@ object SimpleApp {
 //      .config("spark.sql.warehouse.dir", "target/spark-warehouse")
 //      .getOrCreate
 
-    val conf = new SparkConf().setAppName("Simple Application").setMaster("local")
+    val conf = new SparkConf().setAppName("Simple Application")
     val sc = new SparkContext(conf)
 
 
@@ -29,6 +29,7 @@ object SimpleApp {
     println(s"Lines with a: $numAs, Lines with b: $numBs")
     // sc.stop()
 
+    println(logData.count())
     Thread.sleep(1000 * 60)
   }
 }

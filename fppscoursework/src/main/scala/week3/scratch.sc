@@ -9,4 +9,6 @@ object scratch {
 //  error("test")
 
   if (true) 1 else false
+
+  println("Hello World...2")
 }
