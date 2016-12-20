@@ -1,18 +1,16 @@
-println("Abhishek Goswami")
-println("-----------------")
+if (true) 1 else false
 
-val t1 = new NonEmpty(3, new Empty, new Empty)
-val t2 = t1 incl 4
-
-val x1 = new NonEmpty(3, new Empty, new Empty)
-val x2 = x1 incl 2
-
-x2.union(t2)
-
-object intsets {
+object intset {
   println("Abhishek Goswami")
   val t1 = new NonEmpty(3, new Empty, new Empty)
   val t2 = t1 incl 4
+  println("Abhishek Goswami")
+  println("-----------------")
+  val x1 = new NonEmpty(3, new Empty, new Empty)
+  val x2 = x1 incl 2
+  x2.union(t2)
+
+  if (true) 1 else false
 }
 
 abstract class IntSet {
